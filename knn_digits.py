@@ -8,3 +8,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
+#load dataset
+digits=load_digits()
+
